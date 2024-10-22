@@ -1,5 +1,5 @@
 // Dont change anything in this file
-
+import * as scriptJs from '/script.js';
 document.getElementById('generateBtn').addEventListener('click', () => {
     const length = parseInt(document.getElementById('length').value, 10);
     const options = {
