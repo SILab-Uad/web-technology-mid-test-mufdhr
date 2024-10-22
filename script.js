@@ -4,7 +4,6 @@
 export const generatePassword = (length, options) => {
 
 // TODO: Implement the password generation logic based on user input
-const generatePassword = (length, options) => {
 
     // Character sets for password generation
     const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -28,20 +27,5 @@ const generatePassword = (length, options) => {
         password += characterSet[randomIndex];
     }
 
-    return password;
-};
-    let characters = '';
-    if (options.includeUppercase) characters += uppercase;
-    if (options.includeLowercase) characters += lowercase;
-    if (options.includeNumbers) characters += numbers;
-    if (options.includeSpecialChars) characters += specialChars;
-
-    // TODO: Create a variable for the character set based on selected options
-    let password = '';
-    for (let i = 0; i < length; i++) {
-        password += characters.charAt(Math.floor(Math.random() * characters.length));
-    }
-
- // TODO: Generate the password based on the selected criteria
     return password;
 };
