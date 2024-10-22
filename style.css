@@ -25,6 +25,7 @@ h1 {
 }
 
 /* Add more styles here as needed */
+<<<<<<< HEAD
 button {
     background-color: #c7638a;
     color: white;
@@ -34,3 +35,6 @@ button {
     cursor: pointer;
     margin-bottom: 10px;
 }
+=======
+ 
+>>>>>>> c5db913ed4d86608cc7c22937bc3e6077c6d6a9b
